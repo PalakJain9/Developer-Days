@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_div {
+    background: linear-gradient( turquoise 50%, white 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(214, 213, 213);
+    width: 100vw;
+    height: 100vh;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 18rem;
+    height: 23rem;
+    backdrop-filter: blur(0.5rem);
+    box-shadow: 0 3rem 3rem rgba(129, 129, 129, 0.2);
+    padding: 1rem;
+    padding-left: 1.3rem;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.3rem;
+    padding: 0.3rem;
+}
+
+.display_Screen {
+    width: 87%;
+    padding: 0.7rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0.1rem 0.2rem inset rgba(194, 193, 193, 0.7);
+}
