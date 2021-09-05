@@ -24,10 +24,11 @@ table {
 }
 
 .button {
-    border: none;
+    border:none;
     background-color: transparent;
-    font-size: 1.3rem;
-    padding: 0.3rem;
+    font-size: 1.5rem;
+    padding: 0.3rem 1.5rem;
+    color: rgb(78, 78, 78);
 }
 
 .display_Screen {
@@ -37,5 +38,29 @@ table {
     border-radius: 1rem;
     border: none;
     background-color: rgba(255, 255, 255, 0.7);
-    box-shadow: 0 0.1rem 0.2rem inset rgba(194, 193, 193, 0.7);
+    box-shadow: 0 0.3rem 0.5rem inset rgba(194, 193, 193, 0.7);
 }
+
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1023.9px){
+    html{
+        font-size: 99%;
+    }
+  }
+
+@media screen 
+  and (min-device-width: 480.1px) 
+  and (max-device-width: 767.9px){
+    html{
+        font-size: 97%;
+    }
+  }
+
+@media screen 
+  and (max-device-width: 480px) 
+  and (orientation: portrait){
+      html {
+          font-size: 93%;
+      }
+  }
